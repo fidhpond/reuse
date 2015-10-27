@@ -1,9 +1,11 @@
-package ic.doc.templatemethod;
+package ic.doc.strategy;
 
-import java.util.Iterator;
+/**
+ * Created by vw214 on 27/10/15.
+ */
+public class FibonacciFormatter extends Formatter {
 
-public class FibonacciSequence extends Sequence {
-
+    @Override
     public int term(int i) {
         if (i < 0) {
             throw new IllegalArgumentException("Not defined for indices < 0");
@@ -13,5 +15,4 @@ public class FibonacciSequence extends Sequence {
         }
         return term(i - 1) + term(i - 2);
     }
-
 }
