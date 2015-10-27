@@ -37,11 +37,11 @@ public class FibonacciSequenceTest {
             assertThat(e.getMessage(), containsString("Not defined for indices < 0"));
         }
     }
-/*
+
     @Test
     public void canBeIteratedThrough() {
 
         assertThat(fibonaccisequence, hasItems(1, 1, 2, 3, 5));
     }
-*/
+
 }

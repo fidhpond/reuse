@@ -39,11 +39,11 @@ public class TriangularNumberSequenceTest {
         }
     }
 
-    /*
+
     @Test
     public void canBeIteratedThrough() {
 
-        assertThat(sequence, hasItems(1, 1, 2, 3, 5));
+        assertThat(sequence, hasItems(1, 3, 6, 10, 15));
     }
-    */
+
 }

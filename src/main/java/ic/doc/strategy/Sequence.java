@@ -5,7 +5,7 @@ import java.util.Iterator;
 /**
  * Created by vw214 on 27/10/15.
  */
-public class Sequence {
+public class Sequence implements Iterable<Integer> {
     private Formatter formatter;
 
     public Sequence(Formatter format){
