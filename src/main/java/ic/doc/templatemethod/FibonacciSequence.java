@@ -1,6 +1,5 @@
 package ic.doc.templatemethod;
 
-import java.util.Iterator;
 
 public class FibonacciSequence extends Sequence {
 

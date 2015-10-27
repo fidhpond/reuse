@@ -1,6 +1,5 @@
 package ic.doc.templatemethod;
 
-import java.util.Iterator;
 
 /**
  * Created by vw214 on 27/10/15.
